@@ -1,5 +1,5 @@
 {
-  "name": "reflar/traditional-rank-icons",
+  "name": "arthurydalgo/traditional-rank-icons",
   "description": "Replace circle badges with rank-styled badges",
   "keywords": [
     "flarum"
@@ -7,7 +7,7 @@
   "type": "flarum-extension",
   "license": "MIT",
   "require": {
-    "flarum/core": "^0.1.0-beta-8"
+    "flarum/core": "^1.2"
   },
   "authors": [
     {
@@ -18,20 +18,17 @@
   ],
   "autoload": {
     "psr-4": {
-      "Reflar\\TraditionalRankIcons\\": "src/"
+      "arthurydalgo\\TraditionalRankIcons\\": "src/"
     }
   },
   "extra": {
     "flarum-extension": {
-      "title": "ReFlar Traditional Rank Icons",
+      "title": "arthurydalgo Traditional Rank Icons",
       "icon": {
         "name": "fas fa-certificate",
         "backgroundColor": "#263238",
         "color": "#FFF"
       }
-    },
-    "flagrow": {
-      "discuss": "https://discuss.flarum.org/d/17767-traditional-rank-icons-by-reflar"
     }
   }
 }
